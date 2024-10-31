@@ -1,0 +1,107 @@
+body {
+    background-color: linen;
+    border: 5px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.title {
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+.input-form {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.matrix-table {
+    display: inline;
+}
+
+.matrix-container 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/*Matrix A & Matrix B*/
+.matrix-a, .matrix-b
+{
+    border: 2px solid;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: auto;
+}
+#matrix-a-cell,#matrix-b-cell{
+    border: 1px solid; 
+    padding: 0.5rem; 
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*Matrix C*/
+.matrix-c-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.matrix-c {
+    border: 2px solid;
+    padding: 1rem;
+    width: auto;
+}
+
+.matrix-c-table {
+    border-collapse: collapse;
+    margin-top: 2rem;
+    
+}
+
+.matrix-c-caption {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#matrix-c-cell {
+    border: 1px solid; 
+    padding: 0.5rem; 
+    text-align: center;
+}
+
+/*MATRICES LABEL*/
+#Matrices_Label{
+    border: 3px solid black; 
+    display: inline-block; 
+    padding: 10px;
+}
+
+/*Buttons*/
+.button-container {
+    margin-top: 2rem; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#btnMultiply, #btnClear {
+    padding-left: 1rem;
+}
+
+#create_matrices{
+  padding-top: 15px;
+}
