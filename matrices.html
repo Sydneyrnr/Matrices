@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Matrices.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: monospace}
+pre {color: #000000; background-color: #ffffff; font-family: monospace}
+table {color: #404040; background-color: #e9e8e2; font-family: monospace}
+.ST0 {color: #969696; font-family: monospace; font-weight: bold}
+.comment {color: #969696}
+.literal {color: #336bdd}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">/Users/sydneyramgoolam/NetBeansProjects/Mp2_Matrices_enhanced/src/main/java/business_logic/Matrices.java</td></tr></table>
+<pre>
+<span class="comment">/*</span>
+<span class="comment"> * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license</span>
+<span class="comment"> * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template</span>
+<span class="comment"> */</span>
+<span class="literal">package</span> business_logic;
+
+<span class="comment">/**</span>
+<span class="comment"> *</span>
+<span class="comment"> * </span><span class="ST0">@author</span> <span class="comment">sydneyramgoolam</span>
+ <span class="comment">*/</span>
+<span class="literal">public</span> <span class="literal">interface</span> Matrices 
+{
+    <span class="comment">/**</span><span class="ST0">Adds</span> <span class="ST0">two</span> <span class="ST0">matrices</span> <span class="ST0">and</span> <span class="ST0">returns</span> <span class="ST0">the</span> <span class="ST0">result</span> <span class="ST0">as</span> <span class="ST0">a</span> <span class="ST0">new</span> <span class="ST0">matrices</span>
+<span class="comment">     * </span>
+<span class="comment">     * </span><span class="ST0">@param</span> <span class="comment">m1</span><span class="comment"> - </span><span class="comment">matrix</span><span class="comment"> 1</span>
+<span class="comment">     * </span><span class="ST0">@param</span> <span class="comment">m2</span><span class="comment"> - </span><span class="comment">matrix</span><span class="comment"> 2</span>
+<span class="comment">     * </span><span class="ST0">@return</span><span class="comment"> - </span><span class="comment">the</span> <span class="comment">addition</span> <span class="comment">of</span> <span class="comment">the</span> <span class="comment">two</span> <span class="comment">matrices</span><span class="comment">.</span>
+<span class="comment">     * </span><span class="ST0">@throws</span> <span class="comment">IllegalArgumentException</span> <span class="comment">if</span> <span class="comment">the</span> <span class="comment">sizes</span> <span class="comment">of</span> <span class="comment">m1</span><span class="comment">, </span><span class="comment">m2</span> <span class="comment">are</span> <span class="comment">illegal</span> <span class="comment">for</span> <span class="comment">addition</span><span class="comment">.</span>
+     <span class="comment">*/</span>
+    <span class="literal">public</span> Integer[][] addMatrices(Integer[][] m1, Integer[][] m2);
+    
+    <span class="comment">/**</span><span class="ST0">Multiples</span> <span class="ST0">two</span> <span class="ST0">matrices</span> <span class="ST0">and</span> <span class="ST0">returns</span> <span class="ST0">the</span> <span class="ST0">result</span> <span class="ST0">as</span> <span class="ST0">a</span> <span class="ST0">new</span> <span class="ST0">matrices</span>
+<span class="comment">     * </span>
+<span class="comment">     * </span><span class="ST0">If</span> <span class="ST0">m1</span> <span class="ST0">is</span><span class="ST0"> 2</span><span class="ST0">x3</span> <span class="ST0">and</span> <span class="ST0">m2</span> <span class="ST0">is</span><span class="ST0"> 3</span><span class="ST0">x4</span> <span class="ST0">then</span> <span class="ST0">the</span> <span class="ST0">resulting</span> <span class="ST0">matrix</span> <span class="ST0">is</span><span class="ST0"> 2</span><span class="ST0">x4</span>
+<span class="comment">     * </span><span class="ST0">@param</span> <span class="comment">m1</span><span class="comment"> - </span><span class="comment">matrix</span><span class="comment"> 1</span>
+<span class="comment">     * </span><span class="ST0">@param</span> <span class="comment">m2</span><span class="comment"> - </span><span class="comment">matrix</span><span class="comment"> 2</span>
+<span class="comment">     * </span><span class="ST0">@return</span><span class="comment"> - </span><span class="comment">the</span> <span class="comment">addition</span> <span class="comment">of</span> <span class="comment">the</span> <span class="comment">two</span> <span class="comment">matrices</span><span class="comment">;</span>
+<span class="comment">     * </span><span class="ST0">@throws</span> <span class="comment">IllegalArgumentException</span> <span class="comment">if</span> <span class="comment">the</span> <span class="comment">sizes</span> <span class="comment">of</span> <span class="comment">m1</span><span class="comment">, </span><span class="comment">m2</span> <span class="comment">are</span> <span class="comment">illegal</span> <span class="comment">for</span> <span class="comment">multiplication</span><span class="comment">.</span>
+     <span class="comment">*/</span>
+    <span class="literal">public</span> Integer[][] multiplyMatrices(Integer[][] m1, Integer[][] m2);
+    
+}
+
+</pre></body>
+</html>
